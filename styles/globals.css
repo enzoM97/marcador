@@ -29,7 +29,6 @@ a {
   border-radius: 5px;
   background-color: #000;
   margin: auto;
-  padding: 10px;
 }
 #teamAndClock {
   text-align: center;
@@ -42,7 +41,7 @@ a {
 }
 #clock {
   height: 100px;
-  width: 200px;
+  width: 180px;
   margin: auto;
   border: 1px solid rgb(105, 105, 105);
   border-radius: 3px;
@@ -64,8 +63,8 @@ a {
   padding: 10px;
 }
 .score {
-  height: 100px;
-  width: 100px;
+  height: 90px;
+  width: 80px;
   margin: auto;
   border: 1px solid rgb(105, 105, 105);
   border-radius: 3px;
