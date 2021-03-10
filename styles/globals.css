@@ -18,7 +18,6 @@ a {
 
 #__next {
   width: 100%;
-  height: 100vh;
   background-color: #000;
   color: #fff;
   padding: 50px;
@@ -36,14 +35,30 @@ a {
   margin: auto;
   padding: 10px;
 }
-#clock {
+#teamAndClock {
   text-align: center;
 }
 .input, .textarea {
   border: 1px solid rgb(105, 105, 105);
   border-radius: 3px;
-  font-size: 2.0em;
+  font-size: 2.1em;
   padding: 1px 6px;
+}
+#clock {
+  height: 100px;
+  width: 200px;
+  margin: auto;
+  border: 1px solid rgb(105, 105, 105);
+  border-radius: 3px;
+}
+.home, .guest {
+  text-align: center;
+}
+#firstRow .col {
+  padding: 10px;
+}
+#secondRow .col {
+  padding: 10px;
 }
 /*
  * footer
