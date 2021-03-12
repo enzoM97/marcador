@@ -12,21 +12,28 @@ const Main = () => {
     <Container id="main">
       <Row id="firstRow">
         <Col id="teamAndClock">
-          <span className="input" role="textbox" contentEditable>Equipo</span>
           <Clock />
+        </Col>
+      </Row>
+      <Row id="textRow">
+        <Col xs={4} id="firstCol">
+          <span className="input" role="textbox" contentEditable>Local</span>
+        </Col>
+        <Col xs={4} id="secondCol">
+          <span className="quarter-text">Periodo</span>
+        </Col>
+        <Col xs={4} id="thirdCol">
+        <span className="input" role="textbox" contentEditable>Visitante</span>
         </Col>
       </Row>
       <Row id="secondRow">
         <Col xs={4} className="home">
-          <span className="input" role="textbox" contentEditable>Local</span>
           <Score />
         </Col>
         <Col xs={4} className="quarter">
-          <span className="quarter-text">Periodo</span>
           <Quarter />
         </Col>
         <Col xs={4} className="guest">
-          <span className="input" role="textbox" contentEditable>Visitante</span>
           <Score />
         </Col>
       </Row>

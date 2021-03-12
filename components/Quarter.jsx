@@ -2,7 +2,9 @@ import React from 'react'
 
 const Quarter = () => {
   return (
-    <div className="quarter-input">1</div>
+    <div className="quarter-input">
+      1
+    </div>
   )
 }
 
