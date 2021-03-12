@@ -22,7 +22,7 @@ const Main = () => {
           <Score />
         </Col>
         <Col xs={4} className="quarter">
-          <span className="quarter">Periodo</span>
+          <span className="quarter-text">Periodo</span>
           <Quarter />
         </Col>
         <Col xs={4} className="guest">

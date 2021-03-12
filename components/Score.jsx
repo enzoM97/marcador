@@ -2,7 +2,7 @@ import React from 'react'
 
 const Score = () => {
   return (
-    <div className="score">00</div>
+    <div className="score">000</div>
   )
 }
 
