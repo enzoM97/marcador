@@ -25,7 +25,7 @@ a {
   border-radius: 5px;
   background-color: #000;
   color: #fff;
-  margin-top: 35px;
+  margin-top: 40px;
   padding: 30px;
 }
 
@@ -59,7 +59,7 @@ a {
  * text row: home, period and guest texts
  */
 #textRow {
-  margin-top: 20px;
+  margin-top: 50px;
 
 }
 #firstCol, #secondCol, #thirdCol {
@@ -67,11 +67,10 @@ a {
 }
 
 /*
- * second row: locals, guest and period
+ * third row: locals, guest and period
  */
-
 #thirdRow {
-  margin-top: 15px;
+  margin-top: 50px;
 }
 .score {
   height: 70px;
