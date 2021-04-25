@@ -1,9 +1,14 @@
 import React from 'react'
+import SevenSegmentDisplay from './SevenSegmentDisplay'
 
 const Quarter = () => {
+  const ledSize = {
+    width: '45px',
+    height: '70px'
+  }
   return (
     <div className="quarter-input">
-      1
+      <SevenSegmentDisplay style={ledSize} ledBorder={'transparent'} ledColorOn={'green'} ledColorOff={'black'} character={0} />
     </div>
   )
 }
