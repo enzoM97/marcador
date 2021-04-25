@@ -46,15 +46,17 @@ a {
  */
 
 #clock {
-  height: 120px;
+  height: 110px;
   width: 150px;
   margin: auto;
-  padding-top: 7px;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
-#clock span {
-  font-size: 4.5em;
+#clock svg {
+  width: 45px;
+  height: 100px;
 }
-
 /*
  * text row: home, period and guest texts
  */
@@ -147,6 +149,10 @@ a {
   }
   #clock span {
     font-size: 5em;
+  }
+  #clock svg {
+    width: 70px;
+    height: 100px;
   }
   /*
   * text row: home, period and guest texts
