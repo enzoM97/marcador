@@ -16,7 +16,7 @@ const SevenSegmentDisplay = ({ character, style, ledColorOff, ledColorOn, ledBor
     return int & (1 << i)
   }
   return (
-    <svg style={style} xmlns='http://www.w3.org/2000/svg' viewBox='-1 -1 12 20'>
+    <svg className="score-display" style={style} xmlns='http://www.w3.org/2000/svg' viewBox='-1 -1 12 20'>
       <g
         id='abcdefg'
         style={{

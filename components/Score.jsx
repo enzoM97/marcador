@@ -4,7 +4,8 @@ import SevenSegmentDisplay from './SevenSegmentDisplay'
 const Score = () => {
   const ledSize = {
     width: '45px',
-    height: '70px'
+    height: '70px',
+    marginTop: '-20px'
   }
   return (
     <div className="score">

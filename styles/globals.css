@@ -88,6 +88,10 @@ a {
   padding-right: 10px;
 }
 
+.score-display {
+  margin-top: -20xp;
+}
+
 /*
  * third row: fouls and shotclock
  */
@@ -184,6 +188,10 @@ a {
     margin: auto;
     text-align: center;
     padding-top: 0px;
+  }
+
+  svg .score-display {
+    margin-top: -20xp;
   }
 
   /*
