@@ -114,17 +114,8 @@ a {
   height: 80px; 
   font-size: 3em;
 }
-#clock {
-  color: rgb(255, 255, 62);
-}
-#shotClock {
-  color: red;
-}
-.score {
-  color: rgb(88, 2, 2);
-}
-.fouls-input, .quarter-input {
-  color: rgb(1, 190, 1);
+#shotClock svg {
+  margin-top: -5px;
 }
 
 /* 
@@ -148,6 +139,8 @@ a {
   * first row: clock, team
   */
   #clock {
+    padding-left: 5px;
+    padding-right: 5px;
     height: 120px;
     width: 150px;
     margin: auto;
@@ -177,21 +170,24 @@ a {
    */
   .score {
     height: 100px;
-    width: 150px;
+    width: 160px;
     margin: auto;
     text-align: center;
     padding-top: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .score svg {
+    margin-top: -20px;
   }
   .quarter-input {
     height: 100px;
-    width: 80px;
+    width: 70px;
     margin: auto;
     text-align: center;
-    padding-top: 0px;
   }
-
-  svg .score-display {
-    margin-top: -20xp;
+  .quarter-input svg {
+    margin-top: -25px;
   }
 
   /*
@@ -203,15 +199,18 @@ a {
   }
   .fouls-input {
     margin: auto;
-    width: 80px;
+    width: 70px;
     height: 100px;
     font-size: 4.5em;
+  }
+  .fouls-input svg {
+    margin-top: -25px;
   }
 
   #shotClock {
     margin: auto;
     margin-top: 15px;
-    width: 100px;
+    width: 120px;
     height: 100px; 
     font-size: 4em;
   }

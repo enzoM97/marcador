@@ -4,8 +4,7 @@ import SevenSegmentDisplay from './SevenSegmentDisplay'
 const Fouls = () => {
   const ledSize = {
     width: '45px',
-    height: '70px',
-    marginTop: '-25px'
+    height: '70px'
   }
   return (
     <div className="fouls-input">

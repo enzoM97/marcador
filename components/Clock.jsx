@@ -10,13 +10,11 @@ const Clock = () => {
   return (
     <Row>
       <Col xs={9} sm={6} md={4} id="clock">
-        <Row>
           <SevenSegmentDisplay style={ledSize} ledBorder={'transparent'} ledColorOn={'green'} ledColorOff={'black'} character={1} />
           <SevenSegmentDisplay style={ledSize} ledBorder={'transparent'} ledColorOn={'green'} ledColorOff={'black'} character={0} />
           <SevenSegmentDisplay style={ledSize} ledBorder={'transparent'} ledColorOn={'green'} ledColorOff={'black'} character={':'} />
           <SevenSegmentDisplay style={ledSize} ledBorder={'transparent'} ledColorOn={'green'} ledColorOff={'black'} character={0} />
           <SevenSegmentDisplay style={ledSize} ledBorder={'transparent'} ledColorOn={'green'} ledColorOff={'black'} character={0} />
-        </Row>
       </Col>
     </Row>
   )
